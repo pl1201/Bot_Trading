@@ -1,0 +1,28 @@
+# Môi trường (KHÔNG BAO GIỜ PUSH CÁC FILE NÀY LÊN GIT)
+.env
+.env.backup
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+telegram_bot_okx.log
+simple_bot.log
+
+# Mac OS
+.DS_Store
+
+# Git
+.git/
